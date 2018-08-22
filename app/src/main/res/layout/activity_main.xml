@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/video_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统自带的Video"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/videoview_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VideoView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_bt" />
+
+
+    <Button
+        android:id="@+id/mediaplayer_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MediaPlayer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoview_bt" />
+
+    <Button
+        android:id="@+id/jiaozi_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="饺子"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mediaplayer_bt" />
+
+    <Button
+        android:id="@+id/ijk_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ijk"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jiaozi_bt" />
+
+
+</android.support.constraint.ConstraintLayout>
